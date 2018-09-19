@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ <web-app>
+ 
+ 
+ 
+ 
+ 	<!-- 
+ 		tomcat7中文文档
+ 		http://tool.oschina.net/apidocs/apidoc?api=tomcat-7.0-doc -->
+     <servlet>
+         <servlet-name>login</servlet-name>
+         <servlet-class>com.renxl.servlet.LoginWeb</servlet-class>
+     </servlet>
+      <servlet-mapping>
+          <servlet-name>login</servlet-name>
+          <url-pattern>/g</url-pattern>
+          <url-pattern>/y</url-pattern>
+      </servlet-mapping>
+      
+      
+      
+      
+       <servlet>
+         <servlet-name>login1</servlet-name>
+         <servlet-class>com.renxl.servlet.Controller</servlet-class>
+     </servlet>
+      <servlet-mapping>
+          <servlet-name>login1</servlet-name>
+          <url-pattern>/a</url-pattern>
+          <url-pattern>/a1</url-pattern>
+      </servlet-mapping>
+ </web-app>
